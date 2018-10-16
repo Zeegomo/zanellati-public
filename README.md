@@ -11,9 +11,10 @@ Embedded Python:
 
 * Download or clone the **master** branch of the repository on your PC. If you are not familiar with git it is recommended to use the green '**Clone or Download**' button and click on '**Download ZIP**'
 * Open the folder, you will find 4 files: **tools.cpp tools.hpp build.sh eval.py**. tools.cpp provides the function `double evaluate(string f, double x)` that can be used to evaluate arbitrary mathematical functions where f is the string representation of the expression and x is the value to assign to the variable 'x' used in the function. For example, `evaluate("pow(x, 5) +6", 15)` will calculate f(15) where f is "x^5 +6". In order to be able to use that in your C++ code you have to include '**tools.hpp**'.
+* Please note that you have to initialize the Python interpreter first, you can do that with `python_initialize`, defined in tools.hpp
 * To compile with Python support use the build.sh script (type chmod u+x build.sh in terminal if not executable) specifying the files you want to build.
 (es: `./build.sh main.cpp tools.cpp`). You can use all the flags you would use on gcc. This requires Python to be in the PATH.
-* Please note that you have to initialize the Python interpreter first, you can do that with `python_initialize`, defined in tools.hpp
+
 
 Python-CLI
 
