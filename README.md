@@ -1,8 +1,8 @@
 # Zanellati
 ## Getting started
 ### Requirements
-* C++ compiler (Linux/OS X - gcc, Windows - visual c++)
-* Python (see [python.org](https://www.python.org/downloads/) or packet managers on linux). Rember to check the "Add Python to PATH" option when installing on Windows
+* C++ compiler (Linux/OS X - gcc, Windows - visual c++, ecc)
+* Python (see [python.org](https://www.python.org/downloads/) or package managers on linux). Rember to check the "Add Python to PATH" option when installing on Windows
 
 ### Unix
 On Unix you have two choices: you can use Python embedded in C/C++ code or you can use the command line alternative (slower).
