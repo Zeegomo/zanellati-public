@@ -11,7 +11,6 @@
 #ifdef _WIN64
 #include <windows.h>
 #endif
-#include <python3.7m/Python.h>
 
 
 #define MAX_ITERATIONS 10000000
