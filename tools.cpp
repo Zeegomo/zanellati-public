@@ -6,17 +6,17 @@
 #include <math.h>
 #include <string>
 #ifdef __linux__
-#include <unistd.h>
-#endif
-#ifdef _WIN64
-#include <windows.h>
+	#include <unistd.h>
+	#include <linux/limits.h>
+#else
+	#include <windows.h>
 #endif
 
 
 #define MAX_ITERATIONS 10000000
 #define H sqrt(DBL_EPSILON) 
 #define H_SECOND sqrt(sqrt(DBL_EPSILON))
-
+#include <python3.7m/Python.h>
 
 
 std::string getexepath()
