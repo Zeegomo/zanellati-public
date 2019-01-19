@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BUILDSETTINGS="g++ `python-config --ldflags` "$*
+BUILDSETTINGS="`python3.7m-config --ldflags` "
 
 echo "Compiling:"
 
@@ -10,5 +10,5 @@ echo "Compiling:"
 #done
 
 
-${BUILDSETTINGS} && echo "OK" || echo "Something went wrong"
+g++ $* ${BUILDSETTINGS} && echo "OK" || echo "Something went wrong"
 
