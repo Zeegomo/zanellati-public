@@ -4,6 +4,9 @@
 * C++ compiler (Linux/OS X - gcc, Windows - visual c++, mingw, ecc)
 * Python (see [python.org](https://www.python.org/downloads/) or package managers on linux). Rember to check the "Add Python to PATH" option when installing on Windows 
 
+### Code::Blocks
+If you're using Code::Blocks please add `-U__strict_ansi__` in Settings->Compiler->Other compiler options
+
 #### Tested on:
 * Ubuntu 18.04 LTS | Python 3.6/3.7m | gcc 8.2.0
 * Manjaro 18.02 (4.19.14-1) | Python 3.7m | gcc 8.2.1
